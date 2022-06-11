@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for CRUD task",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "devDependencies": {}
+}

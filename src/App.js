@@ -1,5 +1,5 @@
 import './App.css';
-import CrudForm from './crud';
+import CrudForm from './CrudForm.js';
 
 function App() {
   return (

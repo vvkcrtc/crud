@@ -30,7 +30,7 @@ const notes = [{
     "content": "То, что было введно в поле ввода 4"
 }
 ];
-let nextId = 1;
+let nextId = notes.length;
 
 const router = new Router();
 

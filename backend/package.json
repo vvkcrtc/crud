@@ -11,11 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "backend": "^0.0.0",
+    "faker": "^6.6.6",
     "forever": "^4.0.3",
+    "is-stream": "^3.0.0",
     "koa": "^2.13.4",
     "koa-body": "^4.1.0",
     "koa-router": "^7.4.0",
-    "koa2-cors": "^2.0.6"
-  },
-  "devDependencies": {}
+    "koa2-cors": "^2.0.6",
+    "minimatch": "^3.0.2"
+  }
 }
